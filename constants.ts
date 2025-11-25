@@ -115,6 +115,5 @@ export const SAMPLE_MACHINES: Machine[] = [
 export const MOCK_MARKETPLACE_ITEMS: MarketplaceItem[] = [
   { id: '1', name: 'Premium Jute Seeds (1kg)', price: 450, category: 'SEED', images: ['/images/sunn-hemp-jute-seeds-.jpg', '/images/Shahidul-Islam-3-Main-Image-1200x900.jpg'], thumbnail: '/images/sunn-hemp-jute-seeds-.jpg', isGovPriceCompliant: true },
   { id: '2', name: 'Organic Pesticide', price: 1200, category: 'PESTICIDE', images: ['/images/fertilizers1.jpg', '/images/fertilizer2.jpg'], isGovPriceCompliant: true },
-  { id: '3', name: 'Ribboning Blade Set', price: 2500, category: 'TOOL', images: ['https://picsum.photos/400/400?random=7', 'https://picsum.photos/400/400?random=8', 'https://picsum.photos/400/400?random=9'], isGovPriceCompliant: true },
   { id: '4', name: 'Sell Raw Jute (Batch A)', price: 6000, category: 'JUTE_SALE', images: ['/images/jute raw1.jpg', '/images/jute  raw 2.jpg', '/images/jute raw 3.jpg'], isGovPriceCompliant: false },
 ];

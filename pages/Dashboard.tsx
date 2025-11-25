@@ -120,7 +120,7 @@ const Dashboard: React.FC = () => {
       {/* Header */}
       <div className="flex items-center justify-between gap-4 -mx-4 md:-mx-8 px-4 md:px-8 py-4 bg-gray-50/80 dark:bg-white/5 border-b border-gray-200/50 dark:border-white/5 transition-all duration-300">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white tracking-tight">JuteEX</h1>
+          <img src={isDark ? "/images/icon black.jpg" : "/images/icon white mode.jpg"} alt="JuteEX logo" className="h-10" />
           <p className="text-gray-500 text-sm">Welcome back, Owner</p>
         </div>
         
